@@ -6,7 +6,7 @@
     border-radius: 5px;
     font-size: 150%;
 
-    grid-template-columns: 900px 900px 900px;
+    grid-template-rows: 120px 120px 120px;
     grid-template-areas:  
     'header header header'
     'links bio bio'
