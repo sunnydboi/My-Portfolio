@@ -1,9 +1,38 @@
 
+.wrapper{
+    display: grid;
+    grid-gap: 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 150%;
+
+    grid-template-columns: 120px 120px 120px;
+    grid-template-areas:  
+    'header header header'
+    'links bio bio'
+    'footer footer footer';
+}
 body{
     text-align: center;
 }
-h1{
+.header{
     background-color:aqua;
-    color:white;
     padding: 20px;
+    grid-area: header;
+}
+.links{
+    background-color: yellow;
+    padding: 50px;
+    grid-area: links;
+}
+.bio{
+    background-color: white;
+    padding: 20px;
+    grid-area: bio;
+}
+.footer{
+    background-color:aqua;
+    padding: 20px;
+    grid-area: footer;
 }
