@@ -1,7 +1,6 @@
 
 .wrapper{
     display: grid;
-    grid-gap: 10px;
     background-color: white;
     text-align: center;
     border-radius: 5px;
