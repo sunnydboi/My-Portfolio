@@ -1,37 +1,42 @@
 
 .wrapper{
     display: grid;
-    background-color: white;
+    background-color: black;
     text-align: center;
     border-radius: 5px;
     font-size: 150%;
 
-    grid-template-rows: 900px 900px 900px;
+    grid-template-rows: 320px 320px 320px;
     grid-template-areas:  
     'header header header'
     'links bio bio'
     'footer footer footer';
 }
-body{
+.index{
     text-align: center;
+    background-color:black;
 }
 .header{
     background-color:aqua;
     padding: 20px;
     grid-area: header;
+    font-family: Georgia;
 }
 .links{
     background-color: yellow;
     padding: 50px;
     grid-area: links;
+    font-family: Georgia;
 }
 .bio{
     background-color: white;
     padding: 20px;
     grid-area: bio;
+    font-family: Georgia;
 }
 .footer{
     background-color:aqua;
     padding: 20px;
     grid-area: footer;
+    font-family: Georgia;
 }
