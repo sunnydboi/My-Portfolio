@@ -8,8 +8,8 @@
 
     grid-template-rows: 320px 320px 320px;
     grid-template-areas:
-    'nav header em'
-    'links biopic bio'
+    'nav header header'
+    'links bio bio'
     'footer footer footer';
 }
 .empty{
@@ -33,10 +33,7 @@
     font-family: Georgia;
 }
 .bioPicture{
-    background-color:white;
-    grid-area: biopic;
-    width: 320px;
-    height: 320px;
+    background-color:yellow;
 }
 .bio{
     background-color: white;
@@ -61,7 +58,7 @@
     background-color: black;
     text-align: center;
     border-radius: 5px;
-    font-size: 150%;
+    font-size: 100%;
 
     grid-template-rows: 320px 320px 320px;
     grid-template-areas: 
