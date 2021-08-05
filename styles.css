@@ -6,8 +6,9 @@
     border-radius: 5px;
     font-size: 150%;
 
-    grid-template-rows: 320px 320px 320px;
-    grid-template-areas:  
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas:
+    'nav nav nav'  
     'header header header'
     'links bio bio'
     'footer footer footer';
@@ -40,6 +41,12 @@
     grid-area: footer;
     font-family: Georgia;
 }
+.nav{
+    background-color: purple;
+    padding: 10px;
+    grid-area: nav;
+    font-family: Georgia
+}
 .wrapper2{
     display: grid;
     background-color: black;
@@ -48,7 +55,8 @@
     font-size: 150%;
 
     grid-template-rows: 320px 320px 320px;
-    grid-template-areas:  
+    grid-template-areas:
+    'nav nav nav' 
     'header2 header2 header2'
     'project1 project2 project3'
     'project1 project2 project3'
