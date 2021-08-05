@@ -40,3 +40,39 @@
     grid-area: footer;
     font-family: Georgia;
 }
+.wrapper2{
+    display: grid;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 150%;
+
+    grid-template-rows: 320px 320px 320px;
+    grid-template-areas:  
+    'header2 header2 header2'
+    'project1 project2 project3';
+}
+.header2{
+    background-color:aqua;
+    padding: 20px;
+    grid-area: header2;
+    font-family: Georgia;
+}
+.project1{
+    background-color:yellow;
+    padding: 50px;
+    grid-area: project1;
+    font-family: Georgia;
+}
+.project2{
+    background-color:yellow;
+    padding: 50px;
+    grid-area: project2;
+    font-family: Georgia;
+}
+.project3{
+    background-color:yellow;
+    padding: 50px;
+    grid-area: project3;
+    font-family: Georgia;
+}
