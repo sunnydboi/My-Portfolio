@@ -51,7 +51,8 @@
     grid-template-areas:  
     'header2 header2 header2'
     'project1 project2 project3'
-    'project1 project2 project3';
+    'project1 project2 project3'
+    'footer2 footer2 footer2';
 }
 .header2{
     background-color:aqua;
@@ -75,5 +76,11 @@
     background-color:yellow;
     padding: 50px;
     grid-area: project3;
+    font-family: Georgia;
+}
+.footer2{
+    background-color:aqua;
+    padding: 20px;
+    grid-area: footer2;
     font-family: Georgia;
 }
