@@ -56,7 +56,7 @@
 }
 .header2{
     background-color:aqua;
-    padding: 20px;
+    padding: 10px;
     grid-area: header2;
     font-family: Georgia;
 }
