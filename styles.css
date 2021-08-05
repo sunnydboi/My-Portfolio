@@ -50,6 +50,7 @@
     grid-template-rows: 320px 320px 320px;
     grid-template-areas:  
     'header2 header2 header2'
+    'project1 project2 project3'
     'project1 project2 project3';
 }
 .header2{
