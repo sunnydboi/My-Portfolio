@@ -36,7 +36,6 @@
 .bioPicture{
     background-color:purple;
     grid-area: biopic;
-    image-resolution: 400px, 320px;
 }
 .bio{
     background-color: white;
