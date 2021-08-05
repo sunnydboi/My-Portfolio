@@ -6,12 +6,15 @@
     border-radius: 5px;
     font-size: 150%;
 
-    grid-template-rows: 300px 300px 300px;
+    grid-template-rows: 320px 320px 320px;
     grid-template-areas:
-    'nav nav nav'  
-    'header header header'
+    'nav header em'
     'links bio bio'
     'footer footer footer';
+}
+.empty{
+    background-color:aqua;
+    grid-area: em;
 }
 .index{
     text-align: center;
@@ -42,10 +45,9 @@
     font-family: Georgia;
 }
 .nav{
-    background-color: purple;
-    padding: 10px;
+    background-color: aqua;
+    padding: 20px;
     grid-area: nav;
-    grid-template-rows: 100px 100px 100px;
     font-family: Georgia
 }
 .wrapper2{
@@ -56,12 +58,15 @@
     font-size: 150%;
 
     grid-template-rows: 320px 320px 320px;
-    grid-template-areas:
-    'nav nav nav' 
-    'header2 header2 header2'
+    grid-template-areas: 
+    'nav header2 em'
     'project1 project2 project3'
     'project1 project2 project3'
     'footer2 footer2 footer2';
+}
+.empty{
+    background-color:aqua;
+    grid-area: em;
 }
 .header2{
     background-color:aqua;
