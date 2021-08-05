@@ -84,3 +84,6 @@
     grid-area: footer2;
     font-family: Georgia;
 }
+.gitHubLink{
+    text-decoration: none;
+}
