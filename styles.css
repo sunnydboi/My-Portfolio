@@ -45,6 +45,7 @@
     background-color: purple;
     padding: 10px;
     grid-area: nav;
+    grid-template-rows: 100px 100px 100px;
     font-family: Georgia
 }
 .wrapper2{
