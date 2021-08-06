@@ -32,6 +32,7 @@
     padding: 50px;
     grid-area: links;
     font-family: Georgia;
+    text-decoration: none;
 }
 .bioPicture{
     background-color:white;
