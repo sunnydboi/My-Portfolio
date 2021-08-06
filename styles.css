@@ -1,4 +1,20 @@
+.topOfPage{
+    display: grid;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 120%;
 
+    grid-template-rows: 120px 120px 120px;
+    grid-template-areas:
+    'links links links'
+    ;
+}
+.projectsLinkHomepage{
+    grid-area: links;
+    background-color:lightgray;
+    padding: 10px;
+}
 .wrapper{
     display: grid;
     background-color: black;
@@ -9,7 +25,7 @@
     grid-template-rows: 320px 320px 320px;
     grid-template-areas:
     'header header header'
-    'links bio bio'
+    'bio bio bio'
     'vid biopic biopic'
     'footer footer footer';
 }
@@ -26,13 +42,6 @@
     padding: 20px;
     grid-area: header;
     font-family: Georgia;
-}
-.links{
-    background-color: yellow;
-    padding: 50px;
-    grid-area: links;
-    font-family: Georgia;
-    text-decoration: none;
 }
 .bioPicture{
     background-color:white;
