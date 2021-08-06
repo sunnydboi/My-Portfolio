@@ -1,30 +1,51 @@
 .topOfPage{
     display: grid;
-    background-color: lightgray;
-    text-align: center;
-    border-radius: 5px;
-    font-size: 150%;
+    background-color: gray;
+    text-align: left;
+    border-radius: 0px;
+    font-size: 200%;
+    grid-gap: 10px;
 
-    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px;
     grid-template-areas:
-    'links em em'
+    'links links2 em'
     ;
 }
+.projectToHome{
+    text-decoration: none;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.projectToProject{
+    text-decoration: none;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.homeToProject{
+    text-decoration: none;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.homeToHome{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .projectsLinkHomepage{
-    grid-area: links;
-    background-color:lightgray;
-    padding: 10px;
+    grid-area: links2;
+    background-color:gray;
+    padding: 30px;
 }
 .homeLinksHomepage{
     grid-area: links;
-    background-color: lightgray;
-    padding: 10px;
+    background-color: gray;
+    padding: 30px;
 }
 .wrapper{
     display: grid;
     background-color: black;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 150%;
 
     grid-template-rows: 320px 320px 320px;
@@ -59,7 +80,7 @@
     font-family: Georgia;
 }
 .video{
-    background-color:yellow;
+    background-color:white;
     grid-area: vid;
 }
 .footer{
@@ -84,10 +105,40 @@
 
     grid-template-rows: 320px 320px 320px;
     grid-template-areas: 
-    'nav header2 em'
+    'header2 header2 header2'
     'project1 project2 project3'
     'project1 project2 project3'
     'footer2 footer2 footer2';
+}
+.pacMenFactoryDemo{
+    text-decoration: none;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.eyeMovementExerciseDemo{
+    text-decoration: none;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.realTimeBusTrackerDemo{
+    text-decoration: none;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pacMenFactoryLinkRep{
+    text-decoration: none;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.eyeMovementExerciseLinkRep{
+    text-decoration: none;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.realTimeBusTrackerLinkRep{
+    text-decoration: none;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .empty{
     background-color:aqua;
@@ -128,4 +179,6 @@
 }
 .gitHubLink{
     text-decoration: none;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
