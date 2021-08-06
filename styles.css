@@ -205,4 +205,8 @@
     text-decoration: none;
     color:black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.3s;
+}
+.gitHubLink:hover{
+    color:white;
 }
