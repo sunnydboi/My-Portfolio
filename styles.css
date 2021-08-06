@@ -1,18 +1,23 @@
 .topOfPage{
     display: grid;
-    background-color: black;
+    background-color: lightgray;
     text-align: center;
     border-radius: 5px;
-    font-size: 120%;
+    font-size: 150%;
 
-    grid-template-rows: 120px 120px 120px;
+    grid-template-rows: 50px 50px 50px;
     grid-template-areas:
-    'links links links'
+    'links em em'
     ;
 }
 .projectsLinkHomepage{
     grid-area: links;
     background-color:lightgray;
+    padding: 10px;
+}
+.homeLinksHomepage{
+    grid-area: links;
+    background-color: lightgray;
     padding: 10px;
 }
 .wrapper{
