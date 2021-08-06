@@ -58,7 +58,8 @@
     background-color: aqua;
     padding: 20px;
     grid-area: nav;
-    font-family: Georgia
+    font-family: Georgia;
+    text-decoration: none;
 }
 .wrapper2{
     display: grid;
@@ -89,18 +90,21 @@
     padding: 50px;
     grid-area: project1;
     font-family: Georgia;
+    text-decoration: none;
 }
 .project2{
     background-color:yellow;
     padding: 50px;
     grid-area: project2;
     font-family: Georgia;
+    text-decoration: none;
 }
 .project3{
     background-color:yellow;
     padding: 50px;
     grid-area: project3;
     font-family: Georgia;
+    text-decoration: none;
 }
 .footer2{
     background-color:aqua;
