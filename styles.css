@@ -10,7 +10,7 @@
     grid-template-areas:
     'header header header'
     'links bio bio'
-    'biopic biopic biopic'
+    'vid biopic biopic'
     'footer footer footer';
 }
 .empty{
@@ -34,7 +34,7 @@
     font-family: Georgia;
 }
 .bioPicture{
-    background-color:purple;
+    background-color:white;
     grid-area: biopic;
 }
 .bio{
@@ -42,6 +42,10 @@
     padding: 20px;
     grid-area: bio;
     font-family: Georgia;
+}
+.video{
+    background-color:yellow;
+    grid-area: vid;
 }
 .footer{
     background-color:aqua;
