@@ -114,31 +114,55 @@
     text-decoration: none;
     color:black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.3s;
+}
+.pacMenFactoryDemo:hover{
+    color:lightblue;
 }
 .eyeMovementExerciseDemo{
     text-decoration: none;
     color:black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.3s;
+}
+.eyeMovementExerciseDemo:hover{
+    color:lightblue;
 }
 .realTimeBusTrackerDemo{
     text-decoration: none;
     color:black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.3s;
+}
+.realTimeBusTrackerDemo:hover{
+    color:lightblue;
 }
 .pacMenFactoryLinkRep{
     text-decoration: none;
     color:black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.3s;
+}
+.pacMenFactoryLinkRep:hover{
+    color:lightblue;
 }
 .eyeMovementExerciseLinkRep{
     text-decoration: none;
     color:black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.3s;
+}
+.eyeMovementExerciseLinkRep:hover{
+    color:lightblue;
 }
 .realTimeBusTrackerLinkRep{
     text-decoration: none;
     color:black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.3s;
+}
+.realTimeBusTrackerLinkRep:hover{
+    color:lightblue;
 }
 .empty{
     background-color:aqua;
