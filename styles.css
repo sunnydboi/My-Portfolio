@@ -64,7 +64,6 @@
     'footer footer footer';
 }
 .empty{
-    
     grid-area: em;
 }
 .index{
@@ -72,18 +71,15 @@
     background-color:black;
 }
 .header{
-    
     padding: 20px;
     padding-bottom: 0px;
     grid-area: header;
     font-family: 'Courier New', Courier, monospace;;
 }
 .bioPicture{
-    
     grid-area: biopic;
 }
 .bio{
-    
     padding: 20px;
     grid-area: bio;
     font-family: 'Courier New', Courier, monospace;;
