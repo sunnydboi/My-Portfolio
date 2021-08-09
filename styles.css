@@ -10,31 +10,35 @@
     'links links2 name'
     ;
 }
-
+.profolioIntro{
+    font-family:'Courier New', Courier, monospace;
+}
 .projectToHome{
     text-decoration: none;
     color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;;
 }
 .projectToProject{
     text-decoration: none;
     color:black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;;
 }
 .homeToProject{
     text-decoration: none;
     color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;;
 }
 .homeToHome{
     text-decoration: none;
     color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;;
 }
 .projectsLinkHomepage{
     grid-area: links2;
     background-color:gray;
     padding:30px;
+    padding-top: 0px;
+    padding-bottom: 10px;
     padding-right: 1800px;
 }
 .homeLinksHomepage{
@@ -42,12 +46,14 @@
     background-color: gray;
     padding: 30px;
     padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
 }
 .wrapper{
     display: grid;
-    background-color: black;
+    background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
-    border-radius: 20px;
+    border-radius: 0px;
     font-size: 150%;
 
     grid-template-rows: 320px 320px 320px;
@@ -58,7 +64,7 @@
     'footer footer footer';
 }
 .empty{
-    background-color:aqua;
+    
     grid-area: em;
 }
 .index{
@@ -66,49 +72,49 @@
     background-color:black;
 }
 .header{
-    background-color:aqua;
+    
     padding: 20px;
     padding-bottom: 0px;
     grid-area: header;
-    font-family: Georgia;
+    font-family: 'Courier New', Courier, monospace;;
 }
 .bioPicture{
-    background-color:white;
+    
     grid-area: biopic;
 }
 .bio{
-    background-color: white;
+    
     padding: 20px;
     grid-area: bio;
-    font-family: Georgia;
+    font-family: 'Courier New', Courier, monospace;;
 }
 .video{
-    background-color:white;
+    
     grid-area: vid;
 }
 .footer{
-    background-color:aqua;
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 20px;
     grid-area: footer;
-    font-family: Georgia;
+    font-family: 'Courier New', Courier, monospace;;
 }
 .nav{
-    background-color: aqua;
     padding: 20px;
     grid-area: nav;
-    font-family: Georgia;
+    font-family: 'Courier New', Courier, monospace;;
     text-decoration: none;
 }
 .wrapper2{
     display: grid;
-    background-color: black;
+    background: linear-gradient(to right, #00f260, #0575e6);;
     text-align: center;
     border-radius: 5px;
     font-size: 150%;
 
-    grid-template-rows: 320px 320px 320px;
+    grid-template-rows: 120px 120px 120px;
     grid-template-areas: 
     'header2 header2 header2'
+    'project1 project2 project3'
     'project1 project2 project3'
     'project1 project2 project3'
     'footer2 footer2 footer2';
@@ -116,7 +122,7 @@
 .pacMenFactoryDemo{
     text-decoration: none;
     color:black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;;
     transition: 0.3s;
 }
 .pacMenFactoryDemo:hover{
@@ -125,7 +131,7 @@
 .eyeMovementExerciseDemo{
     text-decoration: none;
     color:black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;;
     transition: 0.3s;
 }
 .eyeMovementExerciseDemo:hover{
@@ -134,7 +140,7 @@
 .realTimeBusTrackerDemo{
     text-decoration: none;
     color:black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;;
     transition: 0.3s;
 }
 .realTimeBusTrackerDemo:hover{
@@ -143,7 +149,7 @@
 .pacMenFactoryLinkRep{
     text-decoration: none;
     color:black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;;
     transition: 0.3s;
 }
 .pacMenFactoryLinkRep:hover{
@@ -152,7 +158,7 @@
 .eyeMovementExerciseLinkRep{
     text-decoration: none;
     color:black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;;
     transition: 0.3s;
 }
 .eyeMovementExerciseLinkRep:hover{
@@ -161,53 +167,66 @@
 .realTimeBusTrackerLinkRep{
     text-decoration: none;
     color:black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;;
     transition: 0.3s;
 }
 .realTimeBusTrackerLinkRep:hover{
     color:lightblue;
 }
 .empty{
-    background-color:aqua;
+    
     grid-area: em;
 }
 .header2{
-    background-color:aqua;
+    
     padding: 20px;
     grid-area: header2;
-    font-family: Georgia;
+    font-family: 'Courier New', Courier, monospace;;
 }
 .project1{
-    background-color:yellow;
     padding: 50px;
     grid-area: project1;
-    font-family: Georgia;
-    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;;
+    text-decoration: none; 
 }
+.pacmenAffect{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
 .project2{
-    background-color:yellow;
     padding: 50px;
     grid-area: project2;
-    font-family: Georgia;
+    font-family: 'Courier New', Courier, monospace;;
     text-decoration: none;
 }
+
 .project3{
-    background-color:yellow;
     padding: 50px;
     grid-area: project3;
-    font-family: Georgia;
+    font-family: 'Courier New', Courier, monospace;;
     text-decoration: none;
 }
 .footer2{
-    background-color:aqua;
+    background: linear-gradient(to right, #396afc, #2948ff);;
     padding: 20px;
     grid-area: footer2;
-    font-family: Georgia;
+    font-family: 'Courier New', Courier, monospace;;
 }
 .gitHubLink{
     text-decoration: none;
     color:black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;;
     transition: 0.3s;
 }
 .gitHubLink:hover{
