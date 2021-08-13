@@ -110,9 +110,11 @@
     grid-template-rows: 120px 120px 120px;
     grid-template-areas: 
     'header2 header2 header2'
+    'js js js'
     'project1 project2 project3'
     'project1 project2 project3'
     'project1 project2 project3'
+    'per per per'
     'project4 project4 project4'
     'footer2 footer2 footer2';
 }
@@ -235,4 +237,18 @@
 .gitHubLink:hover{
     color:white;
     
+}
+.javaScriptBootcampWork{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    grid-area: js;
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.personalWork{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    grid-area: per;
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
