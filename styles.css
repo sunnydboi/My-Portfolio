@@ -113,6 +113,7 @@
     'project1 project2 project3'
     'project1 project2 project3'
     'project1 project2 project3'
+    'project4 project4 project4'
     'footer2 footer2 footer2';
 }
 .pacMenFactoryDemo{
@@ -211,6 +212,12 @@
     padding: 50px;
     grid-area: project3;
     font-family: 'Courier New', Courier, monospace;;
+    text-decoration: none;
+}
+.project4{
+    padding:50px;
+    grid-area: project4;
+    font-family:'Courier New', Courier, monospace;
     text-decoration: none;
 }
 .footer2{
